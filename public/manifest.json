@@ -1,0 +1,21 @@
+{
+  "short_name": "ReziCV",
+  "name": "ReziCV — AI Resume Builder",
+  "icons": [
+    {
+      "src": "https://api.iconify.design/lucide:file-text.svg?color=%2310b981",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://api.iconify.design/lucide:file-text.svg?color=%2310b981",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b0f19",
+  "theme_color": "#10b981",
+  "display": "standalone",
+  "orientation": "portrait"
+}
