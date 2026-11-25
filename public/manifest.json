@@ -1,21 +1,27 @@
 {
+  "name": "ReziCV - AI Resume Builder",
   "short_name": "ReziCV",
-  "name": "ReziCV — AI Resume Builder",
-  "icons": [
-    {
-      "src": "https://api.iconify.design/lucide:file-text.svg?color=%2310b981",
-      "type": "image/svg+xml",
-      "sizes": "192x192"
-    },
-    {
-      "src": "https://api.iconify.design/lucide:file-text.svg?color=%2310b981",
-      "type": "image/svg+xml",
-      "sizes": "512x512"
-    }
-  ],
+  "description": "Build high-impact, ATS-optimized resumes with AI bullet rewriting, job description tailoring, and clean RenderCV formatting.",
   "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
   "background_color": "#0b0f19",
   "theme_color": "#10b981",
-  "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "any",
+  "categories": ["productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }

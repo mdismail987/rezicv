@@ -7,10 +7,12 @@
     <meta name="description" content="Build high-impact, ATS-friendly resumes in minutes with AI bullet rewriting, job description tailoring, and clean RenderCV formatting." />
     
     <!-- PWA & Mobile Web App Meta -->
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="theme-color" content="#0b0f19" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
 
     <!-- Google Fonts for RenderCV Classic and Modern typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,5 +22,12 @@
   <body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500 selection:text-white">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
